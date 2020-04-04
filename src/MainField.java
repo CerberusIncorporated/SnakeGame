@@ -6,9 +6,10 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
+
 public class MainField extends JPanel implements ActionListener {
     private final int SIZE = 640;
-    private final int DOT_SIZE = 64;
+    private final int DOT_SIZE = 64; //размер картинок
     private final int ALL_DOTS = 660;
     private Image dot;
     private Image frog;
